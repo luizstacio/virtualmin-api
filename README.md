@@ -1,5 +1,7 @@
 # Virtualmin API
 
+[![Build Status](https://travis-ci.org/luizstacio/virtualmin-api.svg?branch=master)](https://travis-ci.org/luizstacio/virtualmin-api)
+
 It's a simple wrapper
 
 ##How it works?
