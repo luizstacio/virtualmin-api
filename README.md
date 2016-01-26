@@ -1,8 +1,8 @@
 # Virtualmin API
 
-Its a simples wrapper
+It's a simple wrapper
 
-##How its works?
+##How it works?
 
 ```
   /**
@@ -10,15 +10,15 @@ Its a simples wrapper
    */
   var config = {
     host: 'foo.com', //required
-    path: '/virtual-server/remote.cgi', //value default not required
-    port: 10000, //value default not required
+    path: '/virtual-server/remote.cgi', //value default
+    port: 10000, //value default
     user: 'senha', //required
     password: 'password' //required
   };
   var connection = new Virutalmin(config);
 
   /**
-   * Execute one action
+   * Executing one action
    */
   connection.command(program)({
       //pass params here
