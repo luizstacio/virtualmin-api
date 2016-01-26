@@ -1,7 +1,5 @@
 language: node_js
 node_js:
   - "5"
-script:
-  - Make test
 notifications:
   email: true
